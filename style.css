@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    font-family: "Rampart One", cursive;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e3a883;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 2rem;
+    background-color: #3ca3a2;
+    width: 100vw;
+}
+
+#repos {
+    padding: 1rem;
+}
+
+ul {
+    margin-top: 2rem;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    font-family: "Cuprum", sans-serif;
+    font-size: 1rem;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 1rem;
+    max-width: 25%;
+    margin: 1rem 1rem;
+    border-radius: 6px;
+    box-shadow: 0px 0px 8px 7px rgba(0, 120, 132, 0.22);
+    -webkit-box-shadow: 0px 0px 8px 7px rgba(0, 120, 132, 0.22);
+    -moz-box-shadow: 0px 0px 8px 7px rgba(0, 120, 132, 0.22);
+}
+
+img {
+    width: 60%;
+}
+button {
+    background-color: #f0f0f0;
+    cursor: pointer;
+    width: 80%;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    border: none;
+    box-shadow: 0px 0px 8px 7px rgba(196, 196, 196, 0.22);
+    -webkit-box-shadow: 0px 0px 8px 7px rgba(196, 196, 196, 0.22);
+    -moz-box-shadow: 0px 0px 8px 7px rgba(196, 196, 196, 0.22);
+}
+a {
+    font-family: "Rampart One", cursive;
+    color: #3ca3a2;
+    text-decoration: none;
+}
