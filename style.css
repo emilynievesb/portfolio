@@ -5,12 +5,13 @@
 }
 .header {
     font-family: "Rampart One", cursive;
-    width: 100vw;
-    height: 15vh;
+    width: 94%;
+    height: 18vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     background-color: #e3a883;
 }
 
@@ -23,6 +24,7 @@ body {
 
 #repos {
     padding: 1rem;
+    max-width: 90%;
 }
 
 ul {
@@ -68,4 +70,14 @@ a {
     font-family: "Rampart One", cursive;
     color: #3ca3a2;
     text-decoration: none;
+}
+
+
+@media screen and (max-width: 576px) {
+    ul {
+        flex-flow: row wrap;
+}
+    li{
+        max-width: 65%;
+    }
 }
