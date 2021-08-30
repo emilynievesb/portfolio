@@ -71,9 +71,19 @@ a {
     color: #3ca3a2;
     text-decoration: none;
 }
-
+@media screen and (max-width: 768px) {
+    .header{
+        width: 90%;
+    }
+    li{
+        max-width: 30%;
+    }
+}
 
 @media screen and (max-width: 576px) {
+    .header{
+        width: 85%;
+    }
     ul {
         flex-flow: row wrap;
 }
